@@ -1,0 +1,163 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin-top: 10px;
+    margin: 0;
+    text-shadow: 1px 1px 2px #000000;
+}
+
+a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: black;
+}
+
+img{
+    box-shadow: 3px 3px 3px #292929;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    margin: 0 0 45px 0;
+    padding-top: 45px;
+    color: white;
+}
+
+h2{
+    text-align: center;
+    margin: 75px 0;
+    color: white;
+}
+
+p{
+    color: white;
+}
+
+nav{
+    box-shadow: 0px 1px 3px #888888;
+    text-shadow: none;
+    background-color: #a3b393 !important;
+}
+
+footer{
+    text-align: center;
+    padding: 25px;
+    height: 75px;
+    background-color: #A4B494;
+    box-shadow: 0px -1px 3px #302f2f;
+}
+
+.full-page{
+    background-color: rgb(59, 82, 73, 0.95);
+    max-width: 950px;
+    margin: auto;
+}
+
+.full-page-background{
+    background-color: #a3b393;
+background-image: url("https://www.transparenttextures.com/patterns/shley-tree-2.png");
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 900px;
+    margin: 0 auto;
+    list-style: none;
+}
+
+.logo{
+    max-width: 120px;
+    box-shadow: none;
+}
+
+.carousel{
+    max-width: 900px;
+    max-height: 100% !important;
+    margin: auto;
+    box-shadow: 3px 3px 3px #1f1f1f;
+}
+
+.btn{
+    background-color: #a3b393 !important;
+    border-style: none;
+    font-size: 1.2rem;
+}
+
+.navbar-toggler{
+    border-style: none;
+}
+
+.info-div{
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: left;
+}
+
+.offcanvas-body{
+    background-color: #a3b393;
+    text-align: right;
+}
+
+.offcanvas-header{
+    background-color: #a3b393;
+}
+
+.profile-img{
+    width: 450px;
+    border-radius: 5px;
+}
+
+.socials-div{
+    padding: 55px 0;
+    max-width: 900px;
+    display: flex;
+    margin: auto;
+    font-size: 3rem;
+    letter-spacing: 0.5rem;
+}
+
+.fa-square-facebook{
+    color: #0a80ed;
+}
+
+.fa-square-instagram{
+    color: #f60277;
+    }
+
+.fa-square-youtube{
+    color: #f20000;
+}    
+
+@media (max-width: 992px) {
+    .navbar{
+        margin: 0;
+        max-width: 100%;
+    }
+
+    .info-div{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .info-div div button{
+        display: flex;
+        margin: auto;
+        margin-bottom: 45px;
+    }
+
+    p{
+        margin: 0 30px 30px 30px;
+    }
+
+
+}
+
