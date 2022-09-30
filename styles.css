@@ -1,190 +1,307 @@
-*{
-    box-sizing: border-box;
+* {
+  box-sizing: border-box;
 }
 
-body{
-    margin-top: 10px;
-    margin: 0;
-    text-shadow: 1px 1px 2px #000000;
+body {
+  margin-top: 10px;
+  margin: 0;
+  text-shadow: 1px 1px 2px #000000;
 }
 
-a{
-    text-decoration: none;
-    font-size: 1.2rem;
-    color: black;
+a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: black;
 }
 
-img{
-    box-shadow: 3px 3px 3px #292929;
+a:hover {
+  color: rgb(128, 128, 128);
 }
 
-h1{
-    display: flex;
-    justify-content: center;
-    margin: 0 0 45px 0;
-    padding-top: 45px;
-    color: white;
+a:active {
+  color: rgb(59, 82, 73);
 }
 
-h2{
-    text-align: center;
-    margin: 75px 0;
-    color: white;
+img {
+  box-shadow: 3px 3px 3px #292929;
 }
 
-p{
-    color: white;
+h1 {
+  display: flex;
+  justify-content: center;
+  margin: 0 0 45px 0;
+  padding-top: 45px;
+  color: white;
+  font-weight: 300;
 }
 
-nav{
-    box-shadow: 0px 1px 3px #888888;
-    text-shadow: none;
-    background-color: #a3b393 !important;
+h2 {
+  text-align: center;
+  margin: 75px 0;
+  color: white;
+  font-weight: 300;
 }
 
-footer{
-    text-align: center;
-    padding: 25px;
-    height: 75px;
-    background-color: #A4B494;
-    box-shadow: 0px -1px 3px #302f2f;
+p {
+  color: white;
 }
 
-.full-nav ul li{
-    width: 120px;
-    text-align: center;
+nav {
+  box-shadow: 0px 1px 3px #888888;
+  text-shadow: none;
+  background-color: #a3b393 !important;
 }
 
-.full-page{
-    background-color: rgb(59, 82, 73, 0.95);
-    max-width: 950px;
-    margin: auto;
+footer {
+  text-align: center;
+  padding: 25px;
+  height: 75px;
+  background-color: #a4b494;
+  box-shadow: 0px -1px 3px #302f2f;
 }
 
-.full-page-background{
-    background-color: #a3b393;
-background-image: url("https://www.transparenttextures.com/patterns/shley-tree-2.png");
+.big-list {
+  color: white;
+}
+
+.offcanvas {
+  width: 200px !important;
+}
+
+.full-nav ul li {
+  width: 120px;
+  text-align: center;
+}
+
+.info-div button {
+  background-color: #a3b393;
+}
+
+.info-div button:hover {
+  background-color: #888888;
+}
+
+.full-page {
+  background-color: rgb(59, 82, 73, 0.95);
+  max-width: 950px;
+  margin: auto;
+}
+
+.full-page-background {
+  background-color: #a3b393;
+  background-image: url("https://www.transparenttextures.com/patterns/shley-tree-2.png");
 }
 
 .navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-content: space-evenly;
+  align-items: center;
+  max-width: 1150px;
+  margin: 0 auto;
+  list-style: none;
+}
+
+.dropdown-menu {
+  width: 120px !important;
+}
+
+.logo {
+  max-width: 120px;
+  box-shadow: none;
+}
+
+.carousel {
+  max-width: 900px;
+  max-height: 100% !important;
+  margin: auto;
+  box-shadow: 3px 3px 3px #1f1f1f;
+}
+
+.btn {
+  background-color: #a3b393 !important;
+  border-style: none;
+  font-size: 1.2rem;
+}
+
+.navbar-toggler {
+  border-style: none;
+}
+
+.info-div {
+  max-width: 900px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: left;
+}
+
+.offcanvas-body {
+  background-color: #a3b393;
+  text-align: right;
+}
+
+.offcanvas-header {
+  background-color: #a3b393;
+}
+
+.profile-img {
+  max-width: 450px;
+  border-radius: 5px;
+}
+
+.socials-div {
+  padding: 55px 0;
+  max-width: 900px;
+  display: flex;
+  margin: auto;
+  letter-spacing: 0.5rem;
+}
+
+.socials-div a {
+  font-size: 3rem;
+}
+
+.fa-square-facebook {
+  color: #0a80ed;
+}
+
+.fa-square-instagram {
+  color: #f60277;
+}
+
+.about-p {
+  text-align: center;
+  max-width: 100%;
+}
+
+.about-josh-img {
+  max-width: 70%;
+  margin-left: 135px;
+  margin-top: 45px;
+}
+
+.info-div {
+  display: flex;
+}
+
+.portfolio-link {
+  color: rgb(115, 206, 113);
+  font-size: 2rem;
+}
+
+.portfolio-h1 {
+  margin-left: 150px;
+}
+
+.portfolio-h3 {
+  color: white;
+  margin-bottom: 45px;
+}
+
+.contact-img {
+  max-width: 800px;
+  margin: 45px 0 0 45px;
+}
+
+.contact-h1{
+    margin-left: 45px;
+}
+
+.contact-div{
+    text-align: center;
+    color: white;
+}
+
+.contact-div a{
+    color: rgb(115, 206, 113);
+}
+
+.contact-div a:hover{
+    color: rgb(116, 116, 116);
+}
+
+@media (max-width: 991px) {
+  .navbar {
+    margin: 0;
+    max-width: 100%;
+  }
+
+  .about-josh-img {
+    margin-left: 0px;
+  }
+
+  .info-div {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .info-div div button {
     display: flex;
-    flex-direction: row;
+    margin: auto;
+    margin-bottom: 45px;
+  }
+
+  .socials-div {
     justify-content: center;
-    justify-content: space-evenly;
-    align-items: center;
-    max-width: 1150px;
-    margin: 0 auto;
-    list-style: none;
-}
+  }
 
-.dropdown-menu{
-    width: 120px !important;
-}
+  .full-nav {
+    visibility: hidden;
+    margin-bottom: -30px;
+  }
 
-.logo{
-    max-width: 120px;
-    box-shadow: none;
-}
+  .logo {
+    height: 45px;
+  }
 
-.carousel{
-    max-width: 900px;
-    max-height: 100% !important;
-    margin: auto;
-    box-shadow: 3px 3px 3px #1f1f1f;
-}
+  .about-p {
+    margin: 0 30px 0;
+  }
 
-.btn{
-    background-color: #a3b393 !important;
-    border-style: none;
-    font-size: 1.2rem;
-}
-
-.navbar-toggler{
-    border-style: none;
-}
-
-.info-div{
-    max-width: 900px;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+  .big-list {
     text-align: left;
+  }
+
+  .portfolio-link {
+    font-size: 1.5rem;
+  }
+
+  .portfolio-h1 {
+    margin-left: 0;
+  }
+
+  .portfolio-h3 {
+    text-align: left;
+    margin-left: 10px;
+  }
+
+  .contact-img {
+    margin: 45px 0 0 0;
+    width: 80%;
+  }
+
+  .contact-h1{
+    margin-left: 0;
 }
 
-.offcanvas-body{
-    background-color: #a3b393;
-    text-align: right;
-}
+  nav {
+    height: 60px;
+  }
 
-.offcanvas-header{
-    background-color: #a3b393;
-}
+  p {
+    margin: 0 30px 30px 30px;
+  }
 
-.profile-img{
-    max-width: 450px;
-    border-radius: 5px;
-}
-
-.socials-div{
-    padding: 55px 0;
-    max-width: 900px;
-    display: flex;
-    margin: auto;
-    letter-spacing: 0.5rem;
-}
-
-.socials-div a{
-    font-size: 3rem;
-}
-
-.fa-square-facebook{
-    color: #0a80ed;
-}
-
-.fa-square-instagram{
-    color: #f60277;
-    }
-
-.fa-square-youtube{
-    color: #f20000;
-}    
-
-@media (max-width: 992px) {
-    .navbar{
-        margin: 0;
-        max-width: 100%;
-    }
-
-    .info-div{
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .info-div div button{
-        display: flex;
-        margin: auto;
-        margin-bottom: 45px;
-    }
-
-    .socials-div{
-        justify-content: center;
-    }
-
-    .full-nav{
-        visibility: hidden;
-        margin-bottom: -30px;
-    }
-
-    p{
-        margin: 0 30px 30px 30px;
-    }
-
-
+  h1 {
+    padding-top: 75px;
+  }
 }
 
 @media (max-width: 450px) {
-    .profile-img{
-        width: 90%;
-    }
+  .profile-img {
+    width: 90%;
+  }
 }
