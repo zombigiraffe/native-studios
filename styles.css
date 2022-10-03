@@ -246,6 +246,10 @@ iframe{
     margin: 0 0 40px 0;
   }
 
+  .large-logo{
+    max-width: 80%;
+  }
+
   .work{
     left: 0px;
   }  
