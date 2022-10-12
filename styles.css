@@ -64,6 +64,25 @@ iframe{
   margin: 0 0 40px 110px;
 }
 
+.accordion-header{
+  margin-top: 10px !important;
+}
+
+.accordion-body{
+  background-color: #a3b393;
+  color: #fdfcfc;
+  display: flex;
+  flex-direction: row;
+}
+
+.accordion-body ul{
+  margin-right: 150px;
+}
+
+.accordion{
+  text-align: left;
+}
+
 .large-logo{
   max-width: 500px;
   display: block;
@@ -250,6 +269,10 @@ iframe{
     margin: 0 0 40px 0;
   }
 
+  .accordion-body ul{
+    margin-right: 0px;
+  }
+
   .large-logo{
     max-width: 80%;
   }
@@ -325,6 +348,10 @@ iframe{
   .contact-h1{
     margin-left: 0;
 }
+
+  .accordion h2 button{
+    margin-bottom: -1px;
+  }
 
   nav {
     height: 60px;
